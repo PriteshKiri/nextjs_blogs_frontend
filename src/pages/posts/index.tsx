@@ -1,13 +1,11 @@
 import axios from "axios";
 import React from "react";
-import HomeLatestPosts from "@/components/HomeLatestPosts";
-const Home = ({ posts }: any) => {
-  console.log(posts.data);
-
-  if (posts.data) {
+import AllPostsList from "@/components/AllPostsList";
+const Posts = ({ posts }: any) => {
+  if (posts) {
     return (
       <div>
-        <HomeLatestPosts posts={posts.data} />
+        <AllPostsList posts={posts.data} />
       </div>
     );
   } else {
@@ -15,8 +13,7 @@ const Home = ({ posts }: any) => {
   }
 };
 
-export default Home;
-
+export default Posts;
 export async function getStaticProps() {
   const postRes = await axios.get(`${process.env.API}/api/posts/`);
 
