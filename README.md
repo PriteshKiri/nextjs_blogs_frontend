@@ -37,4 +37,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## This is a simple blog this backend on Headless CMS [strapi](https://github.com/PriteshKiri/next_blog_strapi_backend)
+## About Project
+
+This is a simple blog this backend on Headless CMS here is the [link](https://github.com/PriteshKiri/next_blog_strapi_backend) of backed hosted on render.
+
+
+
